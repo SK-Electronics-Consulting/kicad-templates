@@ -10,6 +10,10 @@ fp-info-cache
 
 # Autosave file
 \#auto_saved_files#
+_autosave**.kicad_pcb
+_autosave**.kicad_sch
 
 # Fabrication Toolkit files
+/production/netlist.ipc
+/production/designators.csv
 /production/backups/
