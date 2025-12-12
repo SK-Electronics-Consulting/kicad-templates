@@ -214,6 +214,15 @@
 			(embedded_fonts no)
 		)
 	)
+	(bus_alias "I2C"
+		(members "SDA" "SCL")
+	)
+	(bus_alias "SPI"
+		(members "MOSI" "MISO" "SCLK" "CS")
+	)
+	(bus_alias "USB"
+		(members "D+" "D-")
+	)
 	(junction
 		(at 278.13 157.48)
 		(diameter 0)
